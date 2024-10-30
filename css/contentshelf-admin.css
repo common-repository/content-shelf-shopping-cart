@@ -1,0 +1,110 @@
+<style type="text/css">
+#adminmenu #toplevel_page_contentshelf a > div.wp-menu-image.dashicons-before {
+    background: url(../images/icon-sidebar-default.png);
+    margin: 2px 3px 2px 2px;
+    width: 17px;
+    height: 17px;
+}
+
+#adminmenu #toplevel_page_contentshelf:hover a > div.wp-menu-image.dashicons-before img {
+    /*display: none;*/
+    content: url(../images/icon-sidebar-active.png);
+}
+
+div.inlineBlock {
+  display: inline-block;
+}
+.fntBlack {
+   color: black;
+}
+.fntBold {
+   font-weight: bold;
+}
+.fnt10pt {
+   font-size: 10pt;
+}
+.txtLeft {
+   text-align: left;
+}
+.txtRgt {
+   text-align: right;
+}
+
+div.topBar {
+    margin: 5px 0 20px 0;
+    padding: 5px 0 20px 0;
+    height: 25px;
+}
+
+div.topBar div.rightColumn {
+    margin-left: 24%;
+}
+
+div.mainContent div.leftColumn {
+    margin: 0 0 0 0;
+    vertical-align: top;
+    width: 20%;
+}
+div.mainContent div.rightColumn {
+    margin: 0 0 0 5px;
+    width: 79%;
+    vertical-align: top;
+}
+
+div.bottomBar {
+    height: 25px;
+    margin: 15px 0 0 0;
+}
+
+div.storeInfo {
+    border: 1px solid;
+    margin: 0 0 0 0;
+}
+
+div.storeInfo div.topBar,
+div.storeInfo div.mainContent {
+    background-color: white;
+    padding-bottom: 30px;
+}
+
+div.storeInfo div.topBar {
+    margin: 0 0 0 0;
+}
+div.storeInfo div.mainContent {
+    margin: 0 0 0 0;
+}
+
+div.storeInfo div.bottomBar {
+    background-color: transparent;
+}
+
+img.cs.logo {
+    vertical-align: middle;
+    text-align: left;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    border: none;
+}
+
+img.store.logo {
+    vertical-align: top;
+    margin: 0 5px 5px 5px;
+    padding: 0 8px 8px 8px;
+    border: none;
+}
+
+div.store.greeting {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+div.store.action.links {
+    padding-top: 20px;
+}
+div.store.action.links div.firstLink {
+    padding-right: 10px;
+}
+div.store.action.links div.lasttLink {
+    padding-left: 10px;
+}
+</style>
